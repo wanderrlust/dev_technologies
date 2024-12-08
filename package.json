@@ -13,6 +13,7 @@
     "@astrojs/check": "^0.9.4",
     "@astrojs/node": "^9.0.0",
     "@astrojs/tailwind": "^5.1.2",
+    "@fontsource/m-plus-rounded-1c": "^5.1.0",
     "@types/alpinejs": "^3.13.11",
     "alpinejs": "^3.14.7",
     "astro": "^5.0.3",

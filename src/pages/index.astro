@@ -1,19 +1,21 @@
 ---
-export const prerender = true;
-import Hero from '@components/site/homepage/Hero.astro';
-import Screenshot from '@components/site/homepage/Screenshot.astro';
-import Features from '@components/site/homepage/Features.astro';
-import Pricing from '@components/site/homepage/Pricing.astro';
-import FAQ from '@components/site/homepage/FAQ.astro';
-import LayoutSite from '@layouts/LayoutSite.astro';
-import Testimonial from '@components/site/homepage/Testimonial.astro';
+export const prerender = true
+
+import LayoutSite from '@layouts/LayoutSite.astro'
+import Hero from '@components/site/homepage/Hero.astro'
+
+import Screenshot from '@components/site/homepage/Screenshot.astro'
+import Features from '@components/site/homepage/Features.astro'
+import Testimonial from '@components/site/homepage/Testimonial.astro'
+import Pricing from '@components/site/homepage/Pricing.astro'
+import FAQ from '@components/site/homepage/FAQ.astro'
 ---
 
 <LayoutSite>
-	<Hero />
-	<Screenshot />
-	<Features />
-	<Testimonial />
-	<Pricing />
-	<FAQ />
+  <Hero />
+  <Screenshot />
+  <Features />
+  <Testimonial />
+  <Pricing />
+  <FAQ />
 </LayoutSite>
