@@ -11,10 +11,18 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
+    "@astrojs/node": "^9.0.0",
     "@astrojs/tailwind": "^5.1.2",
+    "@types/alpinejs": "^3.13.11",
+    "alpinejs": "^3.14.7",
     "astro": "^5.0.3",
+    "dotenv": "^16.4.7",
+    "htmx.org": "^1.9.12",
     "pocketbase": "^0.22.1",
     "tailwindcss": "^3.4.15",
     "typescript": "^5.6.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1"
   }
 }
